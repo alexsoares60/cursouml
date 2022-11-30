@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65F91A13-E1CB-3651-F812-5E429806BC72" name="Pedido">
+<createdBy>Alex</createdBy>
+<createdTime>2022-11-30 13:50:07 UTC</createdTime>
+<ownerDesignName>curso_nelio_alves</ownerDesignName>
+<engineerTo>
+<item key="82E76FBF-FB73-09D7-8BD0-7559C39A134A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F685DD94-E4F8-D1C5-34AF-776568DF569C">
+<createdBy>Alex</createdBy>
+<createdTime>2022-11-30 13:50:24 UTC</createdTime>
+<ownerDesignName>curso_nelio_alves</ownerDesignName>
+<engineerTo>
+<item key="82E76FBF-FB73-09D7-8BD0-7559C39A134A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="5EF2053C-6BE2-D390-8137-C3E089DC45B5">
+<createdBy>Alex</createdBy>
+<createdTime>2022-11-30 13:50:54 UTC</createdTime>
+<ownerDesignName>curso_nelio_alves</ownerDesignName>
+<engineerTo>
+<item key="82E76FBF-FB73-09D7-8BD0-7559C39A134A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4FCCF784-4C9A-7472-70D7-960DF7999399" name="Pedido PK">
+<createdBy>Alex</createdBy>
+<createdTime>2022-11-30 13:50:37 UTC</createdTime>
+<ownerDesignName>curso_nelio_alves</ownerDesignName>
+<engineerTo>
+<item key="82E76FBF-FB73-09D7-8BD0-7559C39A134A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F685DD94-E4F8-D1C5-34AF-776568DF569C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

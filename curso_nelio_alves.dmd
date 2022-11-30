@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="curso_nelio_alves" id="C1EC486C-E7B2-AFA6-233E-0152576F14CC" version="3.5">
+<createdBy>Alex</createdBy>
+<createdTime>2022-11-30 13:44:24 UTC</createdTime>
+<ownerDesignName>curso_nelio_alves</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C1EC486C-E7B2-AFA6-233E-0152576F14CC</designId>
+</OSDM_Design>

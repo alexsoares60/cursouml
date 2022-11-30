@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52624150-6796-62BB-CC38-9B1A92379E6C" name="Endereco">
+<createdBy>Alex</createdBy>
+<createdTime>2022-11-30 13:47:37 UTC</createdTime>
+<ownerDesignName>curso_nelio_alves</ownerDesignName>
+<engineerTo>
+<item key="82E76FBF-FB73-09D7-8BD0-7559C39A134A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>endereco</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9AC5703B-E06C-ABD5-9750-FFA9ED46A1F0">
+<createdBy>Alex</createdBy>
+<createdTime>2022-11-30 13:48:21 UTC</createdTime>
+<ownerDesignName>curso_nelio_alves</ownerDesignName>
+<engineerTo>
+<item key="82E76FBF-FB73-09D7-8BD0-7559C39A134A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="AF7F1E06-1A48-9825-10F7-4257D811ABD2">
+<createdBy>Alex</createdBy>
+<createdTime>2022-11-30 13:49:30 UTC</createdTime>
+<ownerDesignName>curso_nelio_alves</ownerDesignName>
+<engineerTo>
+<item key="82E76FBF-FB73-09D7-8BD0-7559C39A134A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="875FD99C-C4DE-DF50-E356-13DDE4555C19" name="Endereco PK">
+<createdBy>Alex</createdBy>
+<createdTime>2022-11-30 13:49:05 UTC</createdTime>
+<ownerDesignName>curso_nelio_alves</ownerDesignName>
+<engineerTo>
+<item key="82E76FBF-FB73-09D7-8BD0-7559C39A134A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9AC5703B-E06C-ABD5-9750-FFA9ED46A1F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
